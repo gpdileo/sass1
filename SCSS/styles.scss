@@ -1,3 +1,5 @@
+@import "variables";
+
 .body {
 
     background-color: bisque;
@@ -8,7 +10,7 @@
     
     /*INICIO*/
     
-    .nav {
+.nav {
     
     
             display: grid;
@@ -18,16 +20,16 @@
             background-color: lightgrey;
             font-family: 'Hubballi', cursive;
     
-    }
+}
     
     
-    .encabezado {
-    
+.encabezado {
+
+            
             display: grid;
             justify-content: space-around;
             margin-top: 50px;
             margin-bottom: 50px;
-            background-color: pink;
             font-family: 'Hubballi', cursive;
     }
     
@@ -85,7 +87,7 @@
 
     .ABC {
 
-        color: yellow;
+        color: red;
 
         .tituloUltimosproyectos {
     

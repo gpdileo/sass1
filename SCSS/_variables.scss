@@ -1,0 +1,67 @@
+
+$redes:(
+    facebook:blue,
+    twitter: red,
+    tiktok: black,
+    whatssap: green
+);
+
+@each $red, $color in $redes {
+    .btn--#{$red}{
+        background-color: $color;
+    }
+}
+
+$estilos: (
+
+  color: blue,
+  centro: center,
+  tFuente: 40px,
+  1rem: 1rem
+  
+  );
+
+/* MAP GET APLICADO*/
+
+.subtitulo {
+
+    background-color: map-get($estilos, color);
+
+
+  }
+
+/*EXTEND*/  
+
+%boton {
+
+  color: black;
+  text-align: center;
+  border-radius: 20px;
+
+}
+
+.boton--aceptar {
+
+  @extend %boton;
+  background-color: green;
+}
+
+.botton--cancelar {
+
+  @extend %boton;
+  background-color: red;
+
+
+}
+
+@mixin sizes($width, $height) {
+
+  height: $height;
+  width: $width;
+}
+
+.tituloUltimosproyectos {
+
+@include sizes( 500px, 50px )
+
+}
