@@ -1,0 +1,283 @@
+.body {
+  background-color: bisque;
+  background-image: linear-gradient(to bottom, #eeb9b9, #891ebb); }
+
+/*INICIO*/
+.nav {
+  display: grid;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: lightgrey;
+  font-family: 'Hubballi', cursive; }
+
+.encabezado {
+  display: grid;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: pink;
+  font-family: 'Hubballi', cursive; }
+
+.subtitulo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: pink;
+  font-family: 'Hubballi', cursive; }
+
+.subtitulo1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: pink;
+  font-family: 'Hubballi', cursive; }
+
+.descripcion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: lightgray;
+  font-family: 'Hubballi', cursive; }
+
+.ABC {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto; }
+
+.ABC {
+  color: yellow; }
+  .ABC .tituloUltimosproyectos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: pink;
+    font-family: 'Hubballi', cursive; }
+
+.tituloUltimosproyectos {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  background-color: pink;
+  font-family: 'Hubballi', cursive; }
+
+.footer_index {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: space-evenly;
+  font-family: 'Hubballi', cursive;
+  background-color: antiquewhite; }
+
+/*GALERIA*/
+.subtituloGaleria_1 {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Hubballi', cursive;
+  align-items: left;
+  justify-content: left; }
+
+.banderaMixta {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  height: 300px;
+  width: 600px; }
+
+.china1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.china2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.subtituloGaleria_2 {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Hubballi', cursive;
+  align-items: left;
+  justify-content: left; }
+
+.banderaMixta2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 300px;
+  width: 600px;
+  margin-bottom: 50px; }
+
+.alemania1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.alemania2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.tituloCamiones {
+  font-family: 'Hubballi', cursive;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.camionesArticulados {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: center;
+  align-content: center;
+  font-family: 'Hubballi', cursive; }
+
+.camionesObras {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: center;
+  align-content: center;
+  font-family: 'Hubballi', cursive; }
+
+.cargadoresCadenas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: center;
+  align-content: center;
+  font-family: 'Hubballi', cursive; }
+
+.tiposDeCamiones {
+  font-family: 'Hubballi', cursive;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center; }
+
+.fotosCamiones {
+  display: flex;
+  flex-direction: row; }
+
+.imagenArticulado {
+  height: 100px;
+  width: 100px; }
+
+.imagenObra {
+  height: 100px;
+  width: 100px; }
+
+.imagenCadenas {
+  height: 100px;
+  width: 100px; }
+
+/*NOSOTROS*/
+.subtituloNosotros_1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: space-evenly;
+  background-color: pink; }
+
+.presentacion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: space-evenly;
+  background-color: pink; }
+
+.trabajando1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: space-evenly; }
+
+.trabajando2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: space-evenly; }
+
+.trabajando3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: space-evenly; }
+
+@keyframes aparecer21 {
+  0% {
+    opacity: 5%;
+    transform: translateX(-30px); }
+  20% {
+    opacity: 10%; }
+  40% {
+    opacity: 30%; }
+  60% {
+    opacity: 60%; }
+  80% {
+    opacity: 80%; }
+  100% {
+    opacity: 100%;
+    transform: translate(100px); } }
+
+@keyframes aparecer22 {
+  0% {
+    opacity: 5%;
+    transform: translateX(-30px); }
+  20% {
+    opacity: 10%; }
+  40% {
+    opacity: 30%; }
+  60% {
+    opacity: 60%; }
+  80% {
+    opacity: 80%; }
+  100% {
+    opacity: 100%;
+    transform: translate(100px); } }
+
+.subtituloGaleria_1 {
+  animation-name: aparecer21;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; }
+
+.subtituloGaleria_2 {
+  animation-name: aparecer22;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; }
